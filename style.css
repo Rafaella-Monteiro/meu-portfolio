@@ -464,3 +464,35 @@ footer p{
     font-size: 20px;
 }
 
+
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 1020px){
+
+    /*CLASSES GERAIS*/
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site, .flex{
+        flex-direction: column-reverse;
+    }
+
+
+    /*CABECALHO*/
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+   
+    /*TOPO DO SITE*/
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+    
+}
