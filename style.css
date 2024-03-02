@@ -466,33 +466,94 @@ footer p{
 
 
 
-
 /*Responsividade*/
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1050px){
 
     /*CLASSES GERAIS*/
+
+    *{
+        justify-content: space-between;
+    }
 
     .flex{
         flex-direction: column;
     }
 
-    .topo-do-site, .flex{
+    .flex, .topo-do-site {
         flex-direction: column-reverse;
     }
 
 
     /*CABECALHO*/
 
-    .menu-desktop, .btn-contato{
+    .menu-desktop, .btn-email{
         display: none;
     }
 
    
     /*TOPO DO SITE*/
 
+    section.topo-do-site{
+        padding: 150px 8%;
+
+    }
+
     .topo-do-site h1 {
         font-size: 30px;
     }
     
+    section.topo-do-site .txt-topo{
+        margin-top: -400px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    section.sobre{
+        margin-top: -300px;
+        margin-bottom: 90px;
+    }
+
+    section.sobre .img-sobre img{
+        width: 250px;
+        height: 300px;
+    }
+
+    section.especialidades{
+        margin-bottom: 500px;
+
+    }
+
+    section.especialidades .especialidades-box{
+        margin-top: 20px;
+    }
+
+   
+
+
+    section.potfolio {
+        margin-top: 100px;
+        margin-bottom: 350px;
+      
+    }
+
+    section.potfolio {
+        margin-bottom: 800px;   
+        box-shadow: none;
+        
+        
+    }
+
+    .img-port{
+        margin-bottom: 50px;
+    }
+    
+    section.potfolio .flex-port{
+        align-items: center;
+        
+        
+    }
+
+
+   
 }
