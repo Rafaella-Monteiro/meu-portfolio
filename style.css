@@ -341,7 +341,7 @@ section.potfolio .flex{
 
 .img-port:hover{
     background-position: 100% 100%;
-    transition: 2s;
+    transition: 0.2s;
     box-shadow: 0px 0px 10px #FFA3FD;
     transform: scale(1.02);
 }
@@ -496,6 +496,7 @@ footer p{
 
     section.topo-do-site{
         padding: 150px 8%;
+        margin-bottom: 200px;
 
     }
 
@@ -511,7 +512,7 @@ footer p{
 
     section.sobre{
         margin-top: -300px;
-        margin-bottom: 90px;
+        margin-bottom: 450px;
     }
 
     section.sobre .img-sobre img{
@@ -520,25 +521,38 @@ footer p{
     }
 
     section.especialidades{
+        padding-top: 70px;
         margin-bottom: 500px;
+        margin-left: -150px;
 
     }
 
     section.especialidades .especialidades-box{
-        margin-top: 20px;
+        margin-top: -20px;
+        
+    }
+
+    .especialidades .especialidades-box:hover{
+     
+        box-shadow: none;
+    }
+
+
+    section.especialidades .especialidades-box p{
+        display: none;
     }
 
    
 
 
     section.potfolio {
-        margin-top: 100px;
-        margin-bottom: 350px;
+        margin-top: -150px;
+        
       
     }
 
     section.potfolio {
-        margin-bottom: 800px;   
+        margin-bottom: 1000px;   
         box-shadow: none;
         
         
@@ -546,13 +560,14 @@ footer p{
 
     .img-port{
         margin-bottom: 50px;
+        width: 70%;
     }
     
     section.potfolio .flex-port{
         align-items: center;
-        
-        
     }
+
+   
 
 
    
