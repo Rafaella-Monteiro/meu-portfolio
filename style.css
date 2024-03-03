@@ -473,7 +473,8 @@ footer p{
     /*CLASSES GERAIS*/
 
     *{
-        justify-content: space-between;
+        align-items: center;
+       
     }
 
     .flex{
@@ -503,7 +504,6 @@ footer p{
         
     }
 
-   
     /*TOPO DO SITE*/
 
     section.topo-do-site{
@@ -541,7 +541,8 @@ footer p{
 
     section.especialidades .especialidades-box{
         margin-top: -20px;
-        
+        margin-left: 150px;
+        align-items: center;
     }
 
     .especialidades .especialidades-box:hover{
@@ -580,7 +581,18 @@ footer p{
     }
 
    
+    footer .line-footer a{
+        
+        font-size: 15px;
+    }
 
+    footer .line-footer p{
+        font-size: 15px;
+    }
 
+    footer{
+        margin-top: -90px;
+        box-shadow: none;
+    }
    
 }
