@@ -487,8 +487,20 @@ footer p{
 
     /*CABECALHO*/
 
-    .menu-desktop, .btn-email{
+    .menu-desktop{
         display: none;
+    }
+
+
+    .nav-bar{
+        height: 100px;
+    }
+   
+    header .interface .logo img{
+        width: 100px;
+        height: 100px;
+        
+        
     }
 
    
