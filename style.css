@@ -64,6 +64,10 @@ button:hover, form .btn-enviar input:hover {
     
 }
 
+#inicio {
+    background: linear-gradient(63.13deg, #191825 51.04%, #865DFF 51.05%);
+}
+
 /*ESTILO CABECALHO*/
 
 header .interface .logo img{
