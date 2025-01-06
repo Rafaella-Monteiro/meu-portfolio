@@ -364,7 +364,7 @@ section.potfolio .flex{
     font-size: 24px;
     font-weight: 600;
     opacity: 0;
-    transition: 1s ease;
+    transition: background-position 1.5s ease;
 }
 
 .overlay:hover{
