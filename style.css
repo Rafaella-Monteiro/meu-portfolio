@@ -345,7 +345,7 @@ section.potfolio .flex{
 
 .img-port:hover{
     background-position: 100% 100%;
-    transition: 2.5s;
+    transition: 4.5s;
     box-shadow: 0px 0px 10px #FFA3FD;
     transform: translateY(20px);;
 }
